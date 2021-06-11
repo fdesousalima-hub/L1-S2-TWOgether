@@ -1,0 +1,54 @@
+body{
+  background-image: url(../Images/Foret.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+#menu {
+  width: 15vw;
+  height: 100vh;
+  border-right: 1px solid black;
+  background: rgba(125, 200, 120, 0.25);
+  overflow: auto;
+  font-size: 85%;
+  color: #e6e6e6;
+  text-shadow: 0em 0em 0.5em #333;
+}
+.ImageEco{
+  width: 90%;
+  height: auto;
+}
+.shadowbox:hover {
+  box-shadow: 2px 2px 4px #444;
+  background-color:  rgba( 151, 192, 154, 0.5) ;
+}
+.onglet{
+  transition: fill 0.3s;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 30px;
+  padding-right: 0px;
+  cursor: pointer;
+}
+.inscripConnect{
+  text-align: center;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 30px 0;
+  flex-grow: 1;
+}
+.inscripConnect.right{
+  border-left: 1px solid black;
+}
+#formulaire{
+  display: flex;
+  border-top: 1px solid black;
+}
+.imageDeco{
+  height: 2em;
+}

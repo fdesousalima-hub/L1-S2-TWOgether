@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+#contenu{
+  flex-grow: 1;
+  text-align: center;
+  height: 100Vh;
+  width: 85vw;
+  overflow: auto;
+}
+#contenu p{
+  font-size: 500px;
+}

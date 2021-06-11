@@ -1,0 +1,48 @@
+body{
+  background-image: url(../Images/Foret.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+#contenu{
+  flex-grow: 1;
+  text-align: center;
+  height: 96vh;
+  width: 85vw;
+  overflow: auto;
+}
+#contenu section{
+  color: darkgreen;
+  background-color: lightgrey;
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+#contenu #Text{
+  color: black;
+}
+#contenu span{
+ font-style: italic;
+}
+#welcome{
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 85vw;
+  height: 6vh;
+  background: rgba(133, 133, 133, 0.5);
+  text-align: center;
+}
+footer a{
+  color: white;
+}

@@ -1,0 +1,16 @@
+.map_image{
+  width:40%;
+  margin: auto;
+}
+.map_image path{
+  fill: #a4ced2;
+  stroke : #FFF;
+  stroke-width:1px;
+  transition: fill 0.3s;
+}
+.map_image path:hover{
+  fill: blue;
+}
+#aff{
+  margin: 2em;
+}
